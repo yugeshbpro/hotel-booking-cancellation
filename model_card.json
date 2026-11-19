@@ -1,0 +1,36 @@
+{
+  "model": "HistGradientBoostingClassifier in a scikit-learn Pipeline",
+  "trained_on": "arrivals Jul-2015 to Dec-2016",
+  "features": [
+    "lead_time",
+    "days_in_waiting_list",
+    "previous_cancellations",
+    "previous_bookings_not_canceled",
+    "adr",
+    "total_nights",
+    "total_guests",
+    "total_of_special_requests",
+    "arrival_month",
+    "is_repeated_guest",
+    "has_kids",
+    "has_agent",
+    "has_company",
+    "hotel",
+    "meal",
+    "market_segment",
+    "distribution_channel",
+    "reserved_room_type",
+    "deposit_type",
+    "customer_type",
+    "arrival_weekday",
+    "country",
+    "agent"
+  ],
+  "threshold": 0.414,
+  "validation_roc_auc": 0.891,
+  "test_roc_auc": 0.855,
+  "open_questions": [
+    "Is country recorded at booking or at check-in?",
+    "Why do Non Refund deposits cancel 99% of the time?"
+  ]
+}
